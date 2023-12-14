@@ -19,6 +19,8 @@ const inputData = `...#......
 #...#.....`
 
 func TestDay11(t *testing.T) {
+	t.Parallel()
+
 	input := bytes.NewBufferString(inputData)
 
 	expansionRate = 2
@@ -26,6 +28,8 @@ func TestDay11(t *testing.T) {
 }
 
 func TestDay11_2(t *testing.T) {
+	t.Parallel()
+
 	input := bytes.NewBufferString(inputData)
 
 	expansionRate = 100

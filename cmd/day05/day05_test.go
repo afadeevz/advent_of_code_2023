@@ -8,6 +8,8 @@ import (
 )
 
 func TestDay5(t *testing.T) {
+	t.Parallel()
+
 	input := bytes.NewBufferString(`seeds: 79 14 55 13
 
 seed-to-soil map:

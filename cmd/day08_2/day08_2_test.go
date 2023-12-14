@@ -13,6 +13,8 @@ type TestCase struct {
 }
 
 func TestDay8(t *testing.T) {
+	t.Parallel()
+
 	testCases := []TestCase{
 		{
 			input: `LR

@@ -8,6 +8,8 @@ import (
 )
 
 func TestDay3(t *testing.T) {
+	t.Parallel()
+
 	input := bytes.NewBufferString(`467..114..
 ...*......
 ..35..633.
